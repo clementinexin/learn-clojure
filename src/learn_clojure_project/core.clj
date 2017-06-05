@@ -337,4 +337,7 @@ print-ns
     (java.util HashMap)))
 (HashMap. {"One" 1})
 
-(seq [1 2 3])
+
+(println *ns*)
+
+(map (+ 1)   [1 2 3])
